@@ -6,29 +6,30 @@ This project is a news application built using React for the client-side and Exp
 
 ```
 news-app
-├── client                # Client-side React application
+├── client
 │   ├── public
-│   │   └── index.html    # Main HTML file for the React app
+│   │   └── index.html
 │   ├── src
 │   │   ├── components
-│   │   │   └── App.js     # Main component of the React application
-│   │   ├── App.js         # Entry point for the React component tree
-│   │   ├── index.js       # Entry point for the React application
+│   │   │   └── App.js
+│   │   ├── App.js
+│   │   ├── index.js
 │   │   └── styles
-│   │       └── App.css    # CSS styles for the App component
-│   ├── package.json       # Client-side dependencies and scripts
-│   └── README.md          # Client-side documentation
-├── server                 # Server-side Express application
+│   │       └── App.css
+│   ├── package.json
+│   └── README.md
+├── server
 │   ├── src
 │   │   ├── controllers
-│   │   │   └── newsController.js  # Handles news-related requests
+│   │   │   └── newsController.js
 │   │   ├── routes
-│   │   │   └── newsRoutes.js      # Defines routes for news endpoints
-│   │   ├── app.js         # Sets up the Express application
-│   │   └── index.js       # Entry point for the server-side application
-│   ├── package.json       # Server-side dependencies and scripts
-│   └── README.md          # Server-side documentation
-└── README.md              # Overall project documentation
+│   │   │   └── newsRoutes.js
+│   │   ├── models
+│   │   │   └── newsModel.js
+│   │   └── app.js
+│   ├── package.json
+│   └── README.md
+└── README.md
 ```
 
 ## Getting Started
